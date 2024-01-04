@@ -28,9 +28,9 @@ Given a source image and  driving video, animates the source image in accordance
     ## Install the Face Alignment lib
     pip install face-alignment
     ```
-## :zap: Quick Inference
 
-We take the paper version for an example. More models can be found [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/fhongac_connect_ust_hk/EjfeXuzwo3JMn7s0oOPN_q0B81P5Wgu_kbYJAh7uSAKS2w?e=KaQcPk).
+
+You can use d
 
 ### YAML configs
 See ```config/vox-adv-256.yaml``` to get description of each parameter.
