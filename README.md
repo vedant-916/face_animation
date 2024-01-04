@@ -41,40 +41,6 @@ The result will be stored in ```result.mp4```. The driving videos and source ima
 ## :computer: Training
 
 
-### Datasets
- 
-1) **VoxCeleb**. Please follow the instruction from https://github.com/AliaksandrSiarohin/video-preprocessing.
-
-### Train on VoxCeleb
-To train a model on specific dataset run:
-```
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --master_addr="0.0.0.0" --master_port=12348 run.py --config config/vox-adv-256.yaml --name DaGAN --rgbd --batchsize 12 --kp_num 15 --generator DepthAwareGenerator
-```
-<div id="dataparallel" >Or</div>
-
-```
-CUDA_VISIBLE_DEVICES=0,1,2,3 python run_dataparallel.py --config config/vox-adv-256.yaml --device_ids 0,1,2,3 --name DaGAN_voxceleb2_depth --rgbd --batchsize 48 --kp_num 15 --generator DepthAwareGenerator
-```
-
-
-<!-- CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7 python -m torch.distributed.launch --master_addr="0.0.0.0" --master_port=12348 run.py --config config/vox-adv-256.yaml --name SpadeDaGAN --rgbd --batchsize 6 --kp_num 15 --generator SPADEDepthAwareGenerator -->
-
-The code will create a folder in the log directory (each run will create a new name-specific directory).
-Checkpoints will be saved to this folder.
-To check the loss values during training see ```log.txt```.
-By default the batch size is tunned to run on 8 GeForce RTX 3090 gpu (You can obtain the best performance after about 150 epochs). You can change the batch size in the train_params in ```.yaml``` file.
-
-
-Also, you can watch the training loss by running the following command:
-```bash
-tensorboard --logdir log/DaGAN/log
-```
-When you kill your process for some reasons in the middle of training, a zombie process may occur, you can kill it using our provided tool:
- ```bash
-python kill_port.py PORT
-```
-
-### Training on your own dataset
 1) Resize all the videos to the same size e.g 256x256, the videos can be in '.gif', '.mp4' or folder with images.
 We recommend the later, for each video make a separate folder with all the frames in '.png' format. This format is loss-less, and it has better i/o performance.
 
