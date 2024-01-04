@@ -1,7 +1,7 @@
 # face_animation
 # FACE IMAGE ANIMATION BASED ON FIRST ORDER MOTION MODEL
 
-GIVEN A SOURCE IMAGE AND A DRIVING VIDEO, ANIMATES THE SOURCE IMAGE IN ACCORDANCE WITH HEAD MOTION AND FACIAL EXPRESSIONS FROM DRIVING VIDEO 
+Given a source image and  driving video, animates the source image in accordance with head motion and facial expressions from driving video 
 
 ## :wrench: Dependencies and Installation
 
