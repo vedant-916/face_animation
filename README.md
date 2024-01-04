@@ -1,41 +1,5 @@
 # face_animation
 
-## :book: Depth-Aware Generative Adversarial Network for Talking Head Video Generation (CVPR 2022)
-<p align="center">
-  <small>:fire: If DaGAN is helpful in your photos/projects, please help to :star: it or recommend it to your friends. Thanks:fire:</small>
-</p>
-<p align="center">
-<small>:fire: Seeking for the collaboration and internship opportunities. :fire:</small>
-</p>
-
-> [[Paper](https://arxiv.org/abs/2203.06605)] &emsp; [[Project Page](https://harlanhong.github.io/publications/dagan.html)] &emsp; [[Demo](https://huggingface.co/spaces/HarlanHong/DaGAN)] &emsp; [[Poster Video](https://www.youtube.com/watch?v=nahsJNjWzGo&t=1s)]<br>
-<!-- > [Fa-Ting Hong](https://harlanhong.github.io), [Longhao Zhang](https://dblp.org/pid/236/7382.html), [Li Shen](https://scholar.google.co.uk/citations?user=ABbCaxsAAAAJ&hl=en), [Dan Xu](https://www.danxurgb.net) <br> -->
-<!-- > The Hong Kong University of Science and Technology, Alibaba Cloud -->
-> [Fa-Ting Hong](https://harlanhong.github.io), [Longhao Zhang](), [Li Shen](), [Dan Xu](https://www.danxurgb.net) <br>
-> The Hong Kong University of Science and Technology<br>
-> Alibaba Cloud
-
-### Cartoon Sample
-https://user-images.githubusercontent.com/19970321/162151632-0195292f-30b8-4122-8afd-9b1698f1e4fe.mp4
-
-### Human Sample
-https://user-images.githubusercontent.com/19970321/162151327-f2930231-42e3-40f2-bfca-a88529599f0f.mp4
-
-### Voxceleb1 Dataset
-<p align="center">
-  <img src="assets/visual_vox1.png">
-</p>
-
-:triangular_flag_on_post: **Updates** 
-- :fire::fire::white_check_mark: July 20 2023: Our new talking head work **[MCNet](https://harlanhong.github.io/publications/mcnet.html) was accpted by ICCV2023. There's no need to train a facial depth network, which makes it more convenient for users to test and fine-tune.
-- :fire::fire::white_check_mark: July 26, 2022: The normal dataparallel training scripts were released since some researchers informed me they ran into **DistributedDataParallel** problems. Please try to train your own model using this [command](#dataparallel). Also, we deleted the command line "with torch.autograd.set_detect_anomaly(True)" to boost the training speed.
-- :fire::fire::white_check_mark: June 26, 2022: The repo of our face depth network is released, please refer to [Face-Depth-Network](https://github.com/harlanhong/Face-Depth-Network) and feel free to email me if you meet any problem.
-- :fire::fire::white_check_mark: June 21, 2022: [Digression] I am looking for research intern/research assistant opportunities in European next year. Please contact me If you think I'm qualified for your position.
-- :fire::fire::white_check_mark: May 19, 2022: The depth face model (50 layers) trained on Voxceleb2 is released! (The corresponding checkpoint of DaGAN will release soon). Click the [LINK](https://hkustconnect-my.sharepoint.com/:f:/g/personal/fhongac_connect_ust_hk/EkxzfH7zbGJNr-WVmPU6fcABWAMq_WJoExAl4SttKK6hBQ?e=fbtGlX)
-
-- :fire::fire::white_check_mark: April 25, 2022: Integrated into Huggingface Spaces 🤗 using Gradio. Try out the web demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/HarlanHong/DaGAN) (GPU version will come soon!)
-- :fire::fire::white_check_mark: Add **[SPADE model](https://hkustconnect-my.sharepoint.com/:f:/g/personal/fhongac_connect_ust_hk/EjfeXuzwo3JMn7s0oOPN_q0B81P5Wgu_kbYJAh7uSAKS2w?e=XNZl3K)**, which produces **more natural** results.
-
 
 ## :wrench: Dependencies and Installation
 
@@ -45,7 +9,7 @@ https://user-images.githubusercontent.com/19970321/162151327-f2930231-42e3-40f2-
 - Option: Linux
 
 ### Installation
-We now provide a *clean* version of DaGAN, which does not require customized CUDA extensions. <br>
+ <br>
 
 1. Clone repo
 
