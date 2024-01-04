@@ -30,7 +30,7 @@ Given a source image and  driving video, animates the source image in accordance
     ```
 
 
-You can use d
+You can use demo.py to run the model on your own data after training your own model
 
 ### YAML configs
 See ```config/vox-adv-256.yaml``` to get description of each parameter.
