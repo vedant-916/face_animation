@@ -26,9 +26,7 @@ Given a source image and  driving video, animates the source image in accordance
     pip install -r requirements.txt
 
     ## Install the Face Alignment lib
-    cd face-alignment
-    pip install -r requirements.txt
-    python setup.py install
+    pip install face-alignment
     ```
 ## :zap: Quick Inference
 
