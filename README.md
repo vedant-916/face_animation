@@ -17,7 +17,7 @@ Given a source image and  driving video, animates the source image in accordance
 
     ```bash
     git clone https://github.com/vedant-916/face_animation.git
-    cd CVPR2022-DaGAN
+    cd face_animation
     ```
 
 2. Install dependent packages
