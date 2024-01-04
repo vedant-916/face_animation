@@ -49,6 +49,12 @@ We recommend the later, for each video make a separate folder with all the frame
 3) Create a config ```config/dataset_name.yaml```, in dataset_params specify the root dir the ```root_dir:  data/dataset_name```. Also adjust the number of epoch in train_params.
 
 ## Example 
+<p align='center'>  
+  <img src='https://github.com/vedant-916/face_animation/blob/main/src_frame.png' width='256'/>
+  <img src='https://github.com/vedant-916/face_animation/blob/main/driving.gif' width='250'/>
+  <img src='https://github.com/vedant-916/face_animation/blob/main/result.gif' width='250'/>
+</p>
+
 
 ## :scroll: Acknowledgement
 
