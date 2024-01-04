@@ -16,7 +16,7 @@ Given a source image and  driving video, animates the source image in accordance
 1. Clone repo
 
     ```bash
-    git clone https://github.com/harlanhong/CVPR2022-DaGAN.git
+    git clone https://github.com/vedant-916/face_animation.git
     cd CVPR2022-DaGAN
     ```
 
