@@ -33,7 +33,7 @@ Given a source image and  driving video, animates the source image in accordance
 You can use demo.py to run the model on your own data after training your own model
 
 
-The result will be stored in ```result.mp4```. The driving videos and source images should be cropped before it can be used in our method. To obtain some semi-automatic crop suggestions you can use ```python crop-video.py --inp some_youtube_video.mp4```. It will generate commands for crops using ffmpeg. 
+The result will be stored in ```result.mp4```. The driving videos and source images should be cropped before being used
 
 
 
