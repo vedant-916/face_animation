@@ -48,7 +48,7 @@ We recommend the later, for each video make a separate folder with all the frame
 
 3) Create a config ```config/dataset_name.yaml```, in dataset_params specify the root dir the ```root_dir:  data/dataset_name```. Also adjust the number of epoch in train_params.
 
-
+## Example 
 
 ## :scroll: Acknowledgement
 
