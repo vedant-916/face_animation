@@ -32,18 +32,7 @@ Given a source image and  driving video, animates the source image in accordance
 
 You can use demo.py to run the model on your own data after training your own model
 
-### YAML configs
-See ```config/vox-adv-256.yaml``` to get description of each parameter.
 
-### Pre-trained checkpoint
-The pre-trained checkpoint of face depth network and our DaGAN checkpoints can be found under following link: [OneDrive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/fhongac_connect_ust_hk/EjfeXuzwo3JMn7s0oOPN_q0B81P5Wgu_kbYJAh7uSAKS2w?e=KaQcPk).
-
-**Inference!**
-To run a demo, download checkpoint and run the following command:
-
-```bash
-CUDA_VISIBLE_DEVICES=0 python demo.py  --config config/vox-adv-256.yaml --driving_video path/to/driving --source_image path/to/source --checkpoint path/to/checkpoint --relative --adapt_scale --kp_num 15 --generator DepthAwareGenerator 
-```
 The result will be stored in ```result.mp4```. The driving videos and source images should be cropped before it can be used in our method. To obtain some semi-automatic crop suggestions you can use ```python crop-video.py --inp some_youtube_video.mp4```. It will generate commands for crops using ffmpeg. 
 
 
