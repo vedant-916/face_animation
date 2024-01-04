@@ -55,29 +55,6 @@ We recommend the later, for each video make a separate folder with all the frame
   <img src='https://github.com/vedant-916/face_animation/blob/main/result.gif' width='250'/>
 </p>
 
-
-## :scroll: Acknowledgement
-
- Our DaGAN implementation is inspired by [FOMM](https://github.com/AliaksandrSiarohin/first-order-model). We appreciate the authors of [FOMM](https://github.com/AliaksandrSiarohin/first-order-model) for making their codes available to public.
-
-## :scroll: BibTeX
-
-```
-@inproceedings{hong2022depth,
-            title={Depth-Aware Generative Adversarial Network for Talking Head Video Generation},
-            author={Hong, Fa-Ting and Zhang, Longhao and Shen, Li and Xu, Dan},
-            journal={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-            year={2022}
-          }
-
-@article{hong2023dagan,
-            title={DaGAN++: Depth-Aware Generative Adversarial Network for Talking Head Video Generation},
-            author={Hong, Fa-Ting and and Shen, Li and Xu, Dan},
-            journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-            year={2023}
-          }
-```
-
-### :e-mail: Contact
-
-If you have any question or collaboration need (research purpose or commercial purpose), please email `fhongac@cse.ust.hk`.
+<p align="center">
+  SOURCE IMAGE  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      TARGET IMAGE   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        SYNTHESIZED IMAGE
+</p>
